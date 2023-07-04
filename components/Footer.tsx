@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { footerLinks } from '@/constants';
 
 const Footer = () => (
-  <footer className="mt-5 flex flex-col  border-t border-gray-100 text-black-100">
+  <footer className="mt-5 flex flex-col border-t border-gray-100 text-black-100">
     <div className="flex flex-wrap justify-between gap-5 px-6 py-10 max-md:flex-col sm:px-16">
       <div className="flex flex-col items-start justify-start gap-6">
         <Image
@@ -48,7 +48,7 @@ const Footer = () => (
           Política de Privacidade
         </Link>
         <Link href="/" className="text-gray-500">
-          Termos & Condições
+          Termos de uso
         </Link>
       </div>
     </div>
